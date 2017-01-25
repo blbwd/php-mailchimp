@@ -6,8 +6,8 @@ if ($_REQUEST['hid_mailchimp'] == 1)
   if(!empty($your_email) && !filter_var($your_email, FILTER_VALIDATE_EMAIL) === false)
   {
     // MailChimp API credentials
-    $apiKey = 'ee88a732410e9a8fbcbad2e4c093589d-us15';
-    $listID = '2ef7913303';
+    $apiKey = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
+    $listID = 'xxxxxxxx';
 
     // MailChimp API URL
     $memberID = md5(strtolower($your_email));
